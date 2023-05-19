@@ -1,7 +1,8 @@
 package com.perso;
 
 public class Pirate {
-    public Pirate(String name){
+    public Pirate(String name) throws PirateException
+    {
         this.name = name;
         this.posX = 30;
         this.posY = 30;
@@ -14,7 +15,12 @@ public class Pirate {
         System.out.println("Le pirate se déplace en X:" + this.posX + " et en Y:" + this.posY);
     }
 
+ 
+
     public String name;
     public int posX;
     public int posY;
+    
 }
+
+// protected permet d'être private sauf pour les classes qui hérite
