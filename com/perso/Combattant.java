@@ -9,7 +9,7 @@ public class Combattant extends EtreVivant {
         System.out.println("combattant respire normalement!");
     }
 
-    @Override
+
     public void vivre() {
        System.out.println("Je pense donc je suis");
     }
